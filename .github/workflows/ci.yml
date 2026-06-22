@@ -21,4 +21,5 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run Tests
-      run: pytest tests/
+      # Updated to run pytest as a python module so it finds the 'src' directory
+      run: python -m pytest tests/
