@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/DELL/mlops_project/mlruns/0/models/m-6207a202d6f54aaab09e20a048926f9a/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.10.6
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: ubj
+    xgb_version: 3.2.0
+mlflow_version: 3.14.0
+model_id: m-6207a202d6f54aaab09e20a048926f9a
+model_size_bytes: 116317
+model_uuid: m-6207a202d6f54aaab09e20a048926f9a
+prompts: null
+run_id: f114e5b35ce34a228b7d4cce24dba774
+utc_time_created: '2026-06-22 08:18:11.947212'
