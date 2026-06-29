@@ -1,7 +1,3 @@
-Here is a clean, comprehensive, and production-grade `README.md` for your project. It is structured exactly how technical recruiters and hiring managers like to see it—focusing on the architecture, the "why" behind your engineering choices, and how to run it.
-
----
-
 # Self-Healing MLOps Pipeline: End-to-End Production Churn Predictor
 
 An enterprise-grade, closed-loop MLOps pipeline designed to train, serve, monitor, and automatically retrain a machine learning model in production. This project addresses a fundamental reality of real-world AI: **models decay over time.** Instead of just serving predictions passively, this system integrates **automated data drift detection** that programmatically triggers a self-healing retraining pipeline the moment production features deviate from baseline statistics.
